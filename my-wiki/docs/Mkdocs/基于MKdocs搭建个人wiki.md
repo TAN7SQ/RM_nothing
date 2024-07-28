@@ -43,3 +43,12 @@ nav:
         - Dev_documents/request_process/网络请求.md
 ```
 
+# 4.部署wiki到github并发布
+- 在github中创建自己的仓库
+- 在本地做完相对应的git操作后push到远程仓库
+`git push origin master`
+- 进入`my-wiki`文件夹，进行部署
+```
+cd ./my-wiki/
+mkdocs gh-deploy
+```
