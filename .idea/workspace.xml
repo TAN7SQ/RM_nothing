@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="750af23c-d6fe-48f5-9f7f-122600d8cc33" name="更改" comment="" />
+    <list default="true" id="750af23c-d6fe-48f5-9f7f-122600d8cc33" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/my-wiki/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-wiki/mkdocs.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-wiki/site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-wiki/site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-wiki/site/Home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-wiki/site/Home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-wiki/site/Mkdocs/基于MKdocs搭建个人wiki/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-wiki/site/Mkdocs/基于MKdocs搭建个人wiki/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

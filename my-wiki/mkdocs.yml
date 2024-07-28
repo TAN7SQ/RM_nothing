@@ -1,8 +1,9 @@
 site_name: TAN7's Docs
-theme:
-  name: 'material'
-
 nav:
   - Home: Home/index.md
   - Mkdocs:
     - build: Mkdocs/基于MKdocs搭建个人wiki.md
+
+theme:
+  name: 'material'
+
