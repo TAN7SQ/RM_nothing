@@ -11,16 +11,16 @@
       
       
       
-      <link rel="icon" href="/assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.30">
     
     
       
-        <title>TAN7's Docs</title>
+        <title>基于MKdocs搭建个人wiki - TAN7's Docs</title>
       
     
     
-      <link rel="stylesheet" href="/assets/stylesheets/main.3cba04c6.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
       
       
 
@@ -39,7 +39,7 @@
       
     
     
-    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -57,6 +57,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#mkdocswiki" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -69,7 +74,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="/." title="TAN7&#39;s Docs" class="md-header__button md-logo" aria-label="TAN7's Docs" data-md-component="logo">
+    <a href="../.." title="TAN7&#39;s Docs" class="md-header__button md-logo" aria-label="TAN7's Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -89,7 +94,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              
+              基于MKdocs搭建个人wiki
             
           </span>
         </div>
@@ -164,7 +169,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="/." title="TAN7&#39;s Docs" class="md-nav__button md-logo" aria-label="TAN7's Docs" data-md-component="logo">
+    <a href="../.." title="TAN7&#39;s Docs" class="md-nav__button md-logo" aria-label="TAN7's Docs" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -182,7 +187,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/index.md" class="md-nav__link">
+      <a href="../../index.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -237,7 +242,7 @@
   
   
     <li class="md-nav__item">
-      <a href="/基于MKdocs搭建个人wiki.md" class="md-nav__link">
+      <a href="../../基于MKdocs搭建个人wiki.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -275,6 +280,25 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1mkdocs" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.安装mkdocs
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -286,8 +310,67 @@
             <div class="md-content" data-md-component="content">
               <article class="md-content__inner md-typeset">
                 
-  <h1>404 - Not found</h1>
+                  
 
+
+<h1 id="mkdocswiki">基于MKdocs搭建个人wiki</h1>
+<h2 id="1mkdocs">1.安装mkdocs</h2>
+<p><code>pip install mkdocs</code></p>
+<p>安装&amp;配置主题
+<code>pip install mkdocs-material</code></p>
+<pre><code>theme:
+    name: 'material'
+</code></pre>
+<h1 id="2">2.创建项目</h1>
+<pre><code>mkdocs new my-wiki
+cd my-wiki
+</code></pre>
+<p>预览项目，首先进入<code>my-wiki</code>文件夹下，运行<code>mkdocs serve</code>命令</p>
+<pre><code>cd my-wiki
+mkdocs serve
+</code></pre>
+<h1 id="3">3.页面布局</h1>
+<p>导航栏支持多级布局，详见👉
+<a href="https://mkdocs-like-code.readthedocs.io/zh-cn/latest/">mkdocs开发文档教程</a></p>
+<pre><code>nav: 
+    - Home: index.md
+    - User Guide:
+        - num_1: 1.md
+        - num_2: 2.md
+    - About
+        - xx: 3.md
+        - xx: 4.md
+</code></pre>
+<p><img alt="img.png" src="../img.png" /></p>
+<pre><code>nav:
+    - Home: index.md
+    - Dev_documents:
+        - Dev_documents/about_git/git.md
+        - Dev_documents/request_process/网络请求.md
+</code></pre>
+<h1 id="4wikigithub">4.部署wiki到github并发布</h1>
+<ul>
+<li>在github中创建自己的仓库</li>
+<li>在本地做完相对应的git操作后push到远程仓库
+<code>git push origin master</code></li>
+<li>进入<code>my-wiki</code>文件夹，进行部署</li>
+</ul>
+<pre><code>cd ./my-wiki/
+mkdocs gh-deploy
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+                
               </article>
             </div>
           
@@ -321,10 +404,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "/", "features": [], "search": "/assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="/assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
     
   </body>

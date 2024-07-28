@@ -5,4 +5,4 @@ theme:
 nav:
   - Home: index.md
   - Mkdocs:
-    - build: 基于MKdocs搭建个人wiki.md
+    - build: Mkdocs/基于MKdocs搭建个人wiki.md
