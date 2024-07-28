@@ -10,7 +10,7 @@ theme:
     name: 'material'
 ```
 
-# 2.创建项目
+## 2.创建项目
 ```
 mkdocs new my-wiki
 cd my-wiki
@@ -21,7 +21,7 @@ cd my-wiki
 mkdocs serve
 ```
 
-# 3.页面布局
+## 3.页面布局
 导航栏支持多级布局，详见👉
 [mkdocs开发文档教程](https://mkdocs-like-code.readthedocs.io/zh-cn/latest/)
 ```
@@ -43,7 +43,7 @@ nav:
         - Dev_documents/request_process/网络请求.md
 ```
 
-# 4.部署wiki到github并发布
+## 4.部署wiki到github并发布
 - 在github中创建自己的仓库
 - 在本地做完相对应的git操作后push到远程仓库
 `git push origin master`

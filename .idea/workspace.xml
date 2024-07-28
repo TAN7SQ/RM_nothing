@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="750af23c-d6fe-48f5-9f7f-122600d8cc33" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-wiki/docs/Mkdocs/基于MKdocs搭建个人wiki.md" beforeDir="false" afterPath="$PROJECT_DIR$/my-wiki/docs/Mkdocs/基于MKdocs搭建个人wiki.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-wiki/mkdocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/my-wiki/mkdocs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/my-wiki/site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-wiki/site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my-wiki/site/Home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-wiki/site/Home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-wiki/site/Home/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/my-wiki/site/Mkdocs/基于MKdocs搭建个人wiki/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/my-wiki/site/Mkdocs/基于MKdocs搭建个人wiki/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my-wiki/site/search/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/my-wiki/site/search/search_index.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +44,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\my_wiki\my-wiki\docs" />
       <recent name="F:\my_wiki\my-wiki\docs\Mkdocs" />
       <recent name="F:\my_wiki\my-wiki\docs\Home" />
     </key>

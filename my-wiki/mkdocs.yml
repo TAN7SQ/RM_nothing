@@ -1,6 +1,6 @@
 site_name: TAN7's Docs
 nav:
-  - Home: Home/index.md
+  - Home: index.md
   - Mkdocs:
     - build: Mkdocs/基于MKdocs搭建个人wiki.md
 
