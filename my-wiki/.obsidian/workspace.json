@@ -148,15 +148,20 @@
   },
   "active": "e81e519a73d345c5",
   "lastOpenFiles": [
-    "mkdocs.yml~",
-    "docs/RM-Electric Control",
+    "site/search/search_index.json",
+    "site/search",
+    "site/Wheel-Legged-Robot/The basics/plans and records/index.html",
+    "site/Wheel-Legged-Robot/The basics/plans and records",
+    "site/Wheel-Legged-Robot/The basics",
+    "site/Wheel-Legged-Robot",
+    "site/Mkdocs/基于MKdocs搭建个人wiki/index.html",
+    "site/Mkdocs/基于MKdocs搭建个人wiki",
+    "site/Home/index.html",
+    "site/Home",
+    "site/index.html",
     "docs/Wheel-Legged-Robot/The basics/plans and records.md",
     "docs/ee_race/关于电磁铁建模.md",
-    "docs/Wheel-Legged-Robot/The basics",
-    "docs/Wheel-Legged-Robot",
     "docs/Home/index.md",
-    "docs/ee_race",
-    "insert",
     "docs/Mkdocs/基于MKdocs搭建个人wiki.md"
   ]
 }
